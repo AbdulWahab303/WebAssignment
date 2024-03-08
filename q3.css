@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgreen;
+}
+
+h1 {
+    color: whitesmoke;
+    height: 100px;
+    background-color: #08b180;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+#outer {
+    padding: 30px; /* Increase padding for spacing */
+    margin: 30px auto; /* Center the outer div */
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    
+    width: 80%; /* Adjust width as needed */
+}
+
+/* Add some spacing between label and input elements */
+
+#checkbox{
+  width: 0px;
+  background-color: #08b180;
+}
+
+
+#outer input {
+    padding: 5px;
+    border-radius: 20px;
+    height: 30px;
+    width: 400px;
+}
+
+#makeTable{
+  padding: 5px;
+  border-radius: 20px;
+  height: 30px;
+  width: 400px;
+}
+
+
+select{
+    padding: 5px;
+    border-radius: 20px;
+    height: 40px;
+    width: 400px;
+}
+.option{
+  padding: 5px;
+    border-radius: 20px;
+    height: 50px;
+    width: 400px;
+}
+
+#one,#two,#three{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+
+#uploadButton{
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+
+  #uploadButton::-webkit-file-upload-button{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 5px;
+  }
+
+  #two2{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+
+  }
+
+  #cover{
+    display: block;
+    height: 300px;
+    width: 80%;
+    cursor: pointer;
+  }
+
+  #outer1 {
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    
+    width: 80%; /* Adjust width as needed */
+}
+
+#hidentable{
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.setTable1{
+  padding: 10px;
+  border: 1px solid black;
+}
+
+#tableDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+}

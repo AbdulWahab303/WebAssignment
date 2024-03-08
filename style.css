@@ -1,0 +1,88 @@
+
+body{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(247, 144,0);
+}
+#main{
+    background-color: white;
+}
+#email,#phone,#location{
+    height: 16px;
+    width: 16px;
+    object-fit: cover;
+}
+#profile{
+    text-align: center;
+    font-size: 20px;
+}
+#bioname{
+    height: 100px;
+}
+#name{
+    font-size: 50px;
+    color:rgb(247, 144,0);
+}
+#name2{
+    color: rgb(59, 53, 46);
+}
+#extra{
+    height: 150px;
+}
+.extra1{
+    height: 10px;
+}
+
+.info1{
+    font-size: 22px;
+    text-align: center;
+}
+
+.naming{
+    font-size: 50px;
+    color:rgb(247, 144,0);
+}
+
+table,td{
+    border: 1px solid black;
+}
+
+#myImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pic{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#bio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#left #right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#left{
+    border-right: 1px solid black;
+    padding-right: 300px;
+}
+
+
+#outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}

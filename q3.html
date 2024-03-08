@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="q3.css"/>
+</head>
+<body>
+    <h1>Job Applications</h1>
+    <form id="JobData">
+    <div id="outer">
+        <h2>Personal Information</h2>
+        <div id="one">
+            <label for="Fname">First Name</label>
+            <input type="text" name="fname" placeholder="First Name" required>
+            <label for="Lname">Last Name</label>
+            <input type="text" name="lname" placeholder="Last Name" required>
+        </div>
+        <div id="two">
+            <label for="number">Number</label>
+            <input type="number" name="number" placeholder="Enter Number" required>
+            <label for="Email">Email :</label>
+            <input type="email" name="email" placeholder="Enter Email Address" required>
+        </div>
+        <div id="three" >
+            <label for="Street">Street</label>
+            <input type="text" name="street" placeholder="Street" required>
+            <label for="City">City</label>
+            <input type="text" name="city" placeholder="City" required>
+            <label for="State">State</label>
+            <input type="text" name="state" placeholder="State" required>
+            <label for="zip">ZIP code</label>
+            <input type="number" name="zip" placeholder="ZiP code" required>
+        </div>
+    </div>
+    <div id="outer">
+        <h2>Resume and Cover Letter</h2>
+        <div id="one">
+            <input id="uploadButton" name="file" type="file" required>
+        </div>
+        <div id="two2">
+            <label for="CoverLetter">Cover Letter :</label>
+            <textarea id="cover" name="cover" required></textarea>
+        </div>
+    </div>
+    <div id="outer">
+        <h2>Education</h2>
+        <div id="one">
+            <label for="Fname">University Name</label>
+            <input type="text" name="Uname" placeholder="University Name" required>
+            <label for="Lname">Highest form of Education</label>
+            <select id="dropdown" aria-placeholder="select" name="degree" required>
+                <option class="option" value="BS">BS</option>
+                <option class="option"value="MS">MS</option>
+                <option class="option" value="Phd">Phd</option>
+            </select>
+            <label for="Lname">Major Area of Interest</label>
+            <select id="dropdown" aria-placeholder="select" name="majors" required>
+                <option class="option" value="Computer Science">Computer Science</option>
+                <option class="option"value="Artficial Intelligence">Artficial Intelligence</option>
+                <option class="option" value="Agriculture">Agriculture</option>
+            </select>
+        </div>
+        <div id="two">
+            <label for="number">Year of Graduation</label>
+            <input type="number" min="1995" max="2024" name="Ygrad" placeholder="Enter Year" required>
+        </div>
+        <div id="two2">
+            <label for="CoverLetter">Employment History :</label>
+            <textarea id="cover" style="border: 1px solid black;" required></textarea>
+        </div>
+    </div>
+
+    <div id="outer">
+        <h2>Availibility</h2>
+        <div id="one">
+            <label for="Fname">Start Date</label>
+            <input type="date" name="Sdate" required>
+            <label for="Lname">Work Schedule</label>
+            <input type="time" name="Time" required>
+            <label for="WIllingness">WIllingness to Relocate</label>
+            <input type="checkbox" style="width: 100px;" name="relocate" required>
+        </div>
+    </div>
+
+
+    <div id="outer">
+        <h2>Personal Information</h2>
+        <div id="one">
+            <label for="Fname">Reference Name</label>
+            <input type="text" name="rname" placeholder="Reference number" >
+            <label for="Lname">Reference Number</label>
+            <input type="number" name="rrel" placeholder="Reference number">
+            <label for="Lname">Reference Relation</label>
+            <input type="text" placeholder="Reference Relation">
+        </div>
+    </div>
+
+
+
+
+    <div id="outer">
+        <h2>Why work for us</h2>
+        <div id="one">
+            <label for="whywork">Why do you want to work for this company</label>
+        </div>
+        <div id="two2">
+            <textarea id="cover"></textarea>
+        </div>
+    </div>
+
+
+    <div id="outer">
+        <h2>Agreement</h2>
+        <div id="one">
+            <label for="agreement1">
+                I agree to the terms and conditions
+            </label>
+                <input id="checkbox" name="A1" type="checkbox" required>
+              <label for="agreement2">
+                  I acknowledge the privacy policy
+                </label>
+                <input id="checkbox" type="checkbox" name="A2" required>
+        </div>
+    </div>
+    <div id="outer">
+        <div id="one">
+            <input type="submit">
+        </div>
+    </form>
+</div>
+    <div id="outer">
+        <div id="one">
+            <button id="makeTable">View as Table</button>
+        </div>
+    </div>
+    <div id="outer1">
+        <div id="tableDiv">
+            <table id="hidentable" hidden>
+                <th class="setTable1">First Name</th>
+                <th class="setTable1">Last Name</th>
+                <th class="setTable1">Number</th>
+                <th class="setTable1">Email</th>
+                <th class="setTable1">Street</th>
+                <th class="setTable1">City</th>
+                <th class="setTable1">State</th>
+                <th class="setTable1">ZIP</th>
+                <th class="setTable1">University Name</th>
+                <th class="setTable1">Education</th>
+                <th class="setTable1">Majors</th>
+                <th class="setTable1">Year of Graduation</th>
+                <th class="setTable1">Start Date</th>
+                <th class="setTable1">Schedule</th>
+                <th class="setTable1">Willingness</th>
+            </table>
+    </div>
+    </div>
+    </div>
+    <script src="check.js"></script>
+</body>
+</html>
+
+
